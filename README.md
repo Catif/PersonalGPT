@@ -1,18 +1,21 @@
 # PersonalGPT
 
-This is a web app create with Vue 3. It is a simple web app that allows you to chat with GPT3.5 or GPT4 with your own API key.
+This is a web app create with React. It is a simple web app that allows you to chat with GPT3.5 or GPT4 with your own API key.
 
 ## Why this project ?
 
-Honestly, the goal is just a practice API and CSS. But I think it can be useful for some people. And I use personaly Playground of OpenAI a lot of time so I think it can be nice to have more functionnalities like :
+Honestly, the goal is just to learn React. But I think it can be useful for some people. And I use personaly Playground of OpenAI a lot of time.
 
-- Your own API Key (No Subscription needed)
-- GPT3.5 and GPT4
-- Dark mode and better UX
-- Stored history
+Basicaly :
+
+- use your own API Key (No Subscription needed like ChatGPT or other web app)
+- Open Source
+- GPT3.5 and GPT4 compatible
+- History of your conversation
 - Create your own presets
+- **NO DATA COLLECTED** (I use localStorage to save your history and your presets)
 
-Don't hesitate to open an issue if you have a suggestion.
+Don't hesitate to open an issue if you have a functionnality that you want to see in this project.
 
 ## How to use it ?
 
