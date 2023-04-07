@@ -1,0 +1,27 @@
+.Presets__list__pagination {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  gap: 10px;
+
+  button {
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(255, 90%, 98%);
+    color: hsl(255, 90%, 2%);
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+
+    &:disabled {
+      opacity: .3;
+      cursor: not-allowed;
+    }
+  }
+}

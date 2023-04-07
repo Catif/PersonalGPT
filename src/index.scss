@@ -1,7 +1,8 @@
+* {box-sizing: border-box;}
+
 body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 #root {
@@ -16,7 +17,6 @@ body {
   color:hsl(255, 90%, 98%);
   font-size: 1.1rem;
 
-  padding-bottom: 200px;
 }
 
 .container {
@@ -26,6 +26,7 @@ body {
   width: 100%;
   max-width: 1000px;
 
+  padding: 0 20px;
   margin: 0 auto;
 }
 
