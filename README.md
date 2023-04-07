@@ -1,6 +1,6 @@
 # PersonalGPT
 
-This is a web app create with Vue 3. It is a simple web app that allows you to chat with GPT3.5 or GPT4 with your own API key.
+This is a web app create with React. It is a simple web app that allows you to chat with GPT3.5 or GPT4 with your own API key.
 
 ## Why this project ?
 
