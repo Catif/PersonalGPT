@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
 
 import "./Presets.scss";
@@ -98,6 +98,9 @@ export default function Presets() {
 
   return (
     <div className="Presets container">
+      <Link className="settingsIcon" to="/settings">
+        <i class="fa-solid fa-gear"></i>
+      </Link>
       <h1>
         Presets{" "}
         {data.length > 0 ? (
