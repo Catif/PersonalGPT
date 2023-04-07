@@ -1,0 +1,77 @@
+.Home__main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 5rem;
+
+  &__title {
+    text-align: center;
+    margin: 0;
+
+    font-size: 6rem;
+  }
+
+  &__subtitle {
+    text-align: center;
+
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+
+  &__button {
+    margin-bottom: 10rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(255, 90%, 67%);
+    color: hsl(255, 90%, 2%);
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-decoration: none;
+
+    i {
+      margin-left: .5rem;
+    }
+
+    &:hover {
+      background-color: hsl(255, 90%, 57%);
+    }
+  }
+
+  &__scroll {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+
+    &__arrow {
+      font-size: 2rem;
+      color: hsl(255, 90%, 67%);
+      cursor: pointer;
+      transition: all 0.3s;
+      animation: scroll 1.5s infinite;
+
+      &:hover {
+        color: hsla(255, 90%, 57%, .5);
+      }
+    }
+  }
+}
+
+// Animation for the scroll down arrow
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(1rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
