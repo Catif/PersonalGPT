@@ -4,7 +4,7 @@ This is a web app create with React. It is a simple web app that allows you to c
 
 ## Why this project ?
 
-Honestly, the goal is just a practice API and CSS. But I think it can be useful for some people. And I use personaly Playground of OpenAI a lot of time so I think it can be nice to have more functionnalities like :
+Honestly, the goal is just to practice React. But I think it can be useful for some people. And I use personaly Playground of OpenAI a lot of time so I think it can be nice to have more functionnalities like :
 
 - Your own API Key (No Subscription needed)
 - GPT3.5 and GPT4
