@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root {
+  background-color: rgb(7, 6, 10);
+  max-width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+  color:hsl(255, 25%, 99%);
+  font-family: 'Anuphan', sans-serif;
+}
