@@ -1,9 +1,13 @@
 import "./Home.scss";
 
+import Main from "./Main/Main";
+import FAQ from "./FAQ/FAQ";
+
 export default function Home() {
 	return (
-		<div className="Home">
-			<h1 className="Home__title">Welcome to PersonalGPT</h1>
+		<div className="Home container">
+			<Main />
+			<FAQ />
 		</div>
 	);
 }
