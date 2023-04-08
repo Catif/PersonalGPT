@@ -15,7 +15,7 @@ export default function Presets() {
   return (
     <div className="Presets container">
       <Link className="settingsIcon" to="/settings">
-        <i class="fa-solid fa-gear"></i>
+        <i className="fa-solid fa-gear"></i>
       </Link>
       <h1>
         Presets{" "}

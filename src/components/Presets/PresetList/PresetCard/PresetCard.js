@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 export default function PresetCard({ preset }) {
   let presetCopy = { ...preset };
-  if (presetCopy.description.length > 80) {
-    presetCopy.description = presetCopy.description.slice(0, 80) + "...";
+  if (presetCopy.description.length > 60) {
+    presetCopy.description = presetCopy.description.slice(0, 60) + "...";
   } else {
     presetCopy.description = presetCopy.description;
   }
