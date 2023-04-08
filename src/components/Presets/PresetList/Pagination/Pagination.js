@@ -11,7 +11,7 @@ export default function Pagination({
       <button
         className="Presets__list__pagination__button"
         onClick={() => handlePagination("prev")}
-        disabled={pagination == 0}
+        disabled={pagination === 0}
       >
         <i className="fas fa-chevron-left"></i>
       </button>
