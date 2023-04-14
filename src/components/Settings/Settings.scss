@@ -1,0 +1,99 @@
+.Settings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  
+
+  h1 {
+    text-align: center;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+    width: 100%;
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      width: 100%;
+      max-width: 320px;
+    }
+
+    .form-group-button {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      width: 100%;
+      align-items: center;
+
+    }
+
+
+    label {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    input {
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 0.25rem;
+      max-width: 320px;
+      width: 100%;
+
+      &:disabled {
+        background-color: #aaa;
+        cursor: not-allowed;
+      }
+    }
+
+    button {
+      font-size: .9rem;
+      max-width: 320px;
+      width: 100%;
+      padding: 0.5rem;
+      border: none;
+      border-radius: 0.25rem;
+      background-color: #fff;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+
+      &:hover {
+        background-color: #eee;
+      }
+
+      &.submit{
+        background-color: hsl(255, 90%, 67%);
+        color: hsl(0, 57%, 95%);
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+          background-color: hsl(255, 90%, 57%);
+        }
+      }
+
+      &.danger {
+        background-color: hsl(0, 57%, 40%);
+        color: hsl(0, 57%, 95%);
+
+        &:hover {
+          background-color: hsl(0, 57%, 30%);
+        }
+      }
+    }
+
+  }
+  
+  hr {
+    margin: 0;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+}
